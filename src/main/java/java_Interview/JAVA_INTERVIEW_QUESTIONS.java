@@ -5,14 +5,14 @@ import java.util.HashSet;
 public class JAVA_INTERVIEW_QUESTIONS {
 
 	public static void main(String[] args) {
-		//Java_01_Reverse_Given_String_Using_For_loop(); 			
-		//Java_02_Reverse_String_Using_StringBuilder();		
+		Java_01_Reverse_Given_String_Using_For_loop(); 			
+		Java_02_Reverse_String_Using_StringBuilder();		
 		Java_03_Reverse_Words_In_Statement();	
-		//Java_04_Reverse_Words_Also_Reverese_Chars_In_Statement_Using_ForLoop();
-		//Java_05_Reverse_Words_Also_Reverese_Chars_In_Statement_Using_StringBUilder();
-		//Java_06_Duplicate_Values_In_Given_Array_Using_ForLoop();
-		//Java_07_Duplicate_Values_In_Given_Array_Using_HashSet();
-		//Java_0_Duplicate_Values_And_Count_In_Given_Array_Using_HashSet();
+		Java_04_Reverse_Words_Also_Reverese_Chars_In_Statement_Using_ForLoop();
+		Java_05_Reverse_Words_Also_Reverese_Chars_In_Statement_Using_StringBUilder();
+		Java_06_Duplicate_Values_In_Given_Array_Using_ForLoop();
+		Java_07_Duplicate_Values_In_Given_Array_Using_HashSet();
+		Java_0_Duplicate_Values_And_Count_In_Given_Array_Using_HashSet();
 		
 		
 	}
