@@ -12,14 +12,15 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadDataFromExcel {
-	static String shtName = "betaSheet";
-	static String tcId = "TestCasesID10";
+	static String shtName = "alphaSheet";
+	static String tcId = "TestCasesID5";
 	
 
 	public static void main(String[] args) throws IOException {
 		HashMap<String,String> data =readDatafromExcelSheet(shtName,tcId );		
-		System.out.println("------------------");
-		System.out.print(data.get("attribute2"));
+		
+		System.out.println();
+		System.out.print(data.get("vocuher3"));
 	}
 
 	private static HashMap<String,String> readDatafromExcelSheet(String sheetName, String tcID) throws IOException {
