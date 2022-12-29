@@ -21,10 +21,9 @@ public class TakeScreenShot {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-		
 		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://www.browserstack.com");
+		driver.get("https://opensource-demo.orangehrmlive.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	//Convert WebDriver Object to TakeScreenShot

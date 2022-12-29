@@ -12,18 +12,18 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadDataFromExcel {
-	static String shtName = "alphaSheet";
-	static String tcId = "TestCasesID5";
+	static  String shtName = "alphaSheet";
+	static String tcId = "TestCasesID3";
 	
 
 	public static void main(String[] args) throws IOException {
 		HashMap<String,String> data =readDatafromExcelSheet(shtName,tcId );		
 		
 		System.out.println();
-		System.out.print(data.get("vocuher3"));
+		System.out.print(data.get("vocuher6"));
 	}
 
-	private static HashMap<String,String> readDatafromExcelSheet(String sheetName, String tcID) throws IOException {
+	public static HashMap<String,String> readDatafromExcelSheet(String sheetName, String tcID) throws IOException {
 		HashMap<String, String> hmap = null;
 		try {
 		 hmap = new HashMap<String, String>();
@@ -48,8 +48,8 @@ public class ReadDataFromExcel {
 				String k = targetKeyRow.getCell(j).getStringCellValue();
 				String v = targetValueRow.getCell(j).getStringCellValue();
 				hmap.put(k,v);
-				System.out.println(k);
-				System.out.println(v);
+				//System.out.println(k);
+				//System.out.println(v);
 			}
 			break;}
 	
