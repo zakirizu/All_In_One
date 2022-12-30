@@ -331,3 +331,86 @@
 09:18:08.082 [main] DEBUG FrameWork_BuildingBlocks.log4JDemo - Message in Debug
 09:18:08.082 [main] FATAL FrameWork_BuildingBlocks.log4JDemo - Message in Debug
 09:19:24.512 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Message in Info
+10:21:44.751 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Exception Occured while selecting VisibleText : 2 in DropDownList :[[ChromeDriver: chrome on WINDOWS (83e67d7c91b447a04c940c28f5f42fe2)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:21:44.773 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Exception Occured while selecting VisibleText : R in DropDownList :[[ChromeDriver: chrome on WINDOWS (83e67d7c91b447a04c940c28f5f42fe2)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:21:44.789 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Exception Occured while selecting VisibleText : Other Board in DropDownList :[[ChromeDriver: chrome on WINDOWS (83e67d7c91b447a04c940c28f5f42fe2)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:23:53.072 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Element is Visible :[[ChromeDriver: chrome on WINDOWS (8d04a953c34ded53a3d2db7bbda7c2fc)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:23:53.076 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting VisbleText : 2 in DropDownListl :[[ChromeDriver: chrome on WINDOWS (8d04a953c34ded53a3d2db7bbda7c2fc)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:23:53.178 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Visible Text of :2
+10:23:53.197 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Element is Visible :[[ChromeDriver: chrome on WINDOWS (8d04a953c34ded53a3d2db7bbda7c2fc)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:23:53.198 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting VisbleText : R in DropDownListl :[[ChromeDriver: chrome on WINDOWS (8d04a953c34ded53a3d2db7bbda7c2fc)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:23:53.232 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Exception Occured while selecting VisibleText : R in DropDownList :[[ChromeDriver: chrome on WINDOWS (8d04a953c34ded53a3d2db7bbda7c2fc)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:23:53.246 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Element is Visible :[[ChromeDriver: chrome on WINDOWS (8d04a953c34ded53a3d2db7bbda7c2fc)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:23:53.246 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting VisbleText : Other Board in DropDownListl :[[ChromeDriver: chrome on WINDOWS (8d04a953c34ded53a3d2db7bbda7c2fc)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:23:53.303 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Visible Text of :Other Board
+10:28:12.477 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Element is Visible :[[ChromeDriver: chrome on WINDOWS (2e443a44468a9506d9f905b7ef17599f)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:28:12.479 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting VisbleText : Other Board in DropDownListl :[[ChromeDriver: chrome on WINDOWS (2e443a44468a9506d9f905b7ef17599f)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:28:12.591 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Visible Text of :Other Board
+10:30:28.596 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Element is Visible :[[ChromeDriver: chrome on WINDOWS (3d08088f24c287dd5c8c8c6a0f5cd531)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:30:28.598 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting VisbleText : 2 in DropDownListl :[[ChromeDriver: chrome on WINDOWS (3d08088f24c287dd5c8c8c6a0f5cd531)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:30:28.723 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Index of :2
+10:47:09.538 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Element is Visible :[[ChromeDriver: chrome on WINDOWS (b493d53d1f81d3b4e3e95897fbfc66ef)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:47:09.540 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting VisbleText : 2 in DropDownListl :[[ChromeDriver: chrome on WINDOWS (b493d53d1f81d3b4e3e95897fbfc66ef)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:47:09.655 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Index of :2
+10:48:33.615 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Element is Visible :[[ChromeDriver: chrome on WINDOWS (fcd519f6d264c7ad36043ce1361b4831)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:48:33.617 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting Index of : 2 in DropDownList :[[ChromeDriver: chrome on WINDOWS (fcd519f6d264c7ad36043ce1361b4831)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:48:33.723 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Index of :2
+10:49:41.941 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (bc2caf07f06025061b4ebc419893822d)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:49:41.943 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting Index of : 2 in DropDownList :[[ChromeDriver: chrome on WINDOWS (bc2caf07f06025061b4ebc419893822d)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:49:42.047 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Index of :2
+10:49:58.086 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (e6b080a2b318cd16c3dd3d2fb7aca7c1)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:49:58.088 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting VisbleText : 2 in DropDownListl :[[ChromeDriver: chrome on WINDOWS (e6b080a2b318cd16c3dd3d2fb7aca7c1)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:49:58.221 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Index of :2
+10:52:37.564 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (e006643f57736aa649d0db323c5e369d)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:52:37.566 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting Drop Down List with Index of : 2 in DropDownListl :[[ChromeDriver: chrome on WINDOWS (e006643f57736aa649d0db323c5e369d)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:52:37.661 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Index of :2
+10:53:12.984 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (8592e8f64931fb890ade9e00a26ca41c)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:53:12.986 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting Drop Down List with Index of : 2 in DropDownList :[[ChromeDriver: chrome on WINDOWS (8592e8f64931fb890ade9e00a26ca41c)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:53:13.102 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Index of :2
+10:53:47.923 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (d99385270923cfc2af2a1e4a58eb3aa0)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:53:47.926 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list value : R in DropDownListl :[[ChromeDriver: chrome on WINDOWS (d99385270923cfc2af2a1e4a58eb3aa0)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:53:47.974 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Exception Occured while selecting value : R in DropDownList :[[ChromeDriver: chrome on WINDOWS (d99385270923cfc2af2a1e4a58eb3aa0)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:55:28.909 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (bb1ae24323c17e5e5edbba0c0778c3a5)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:55:29.028 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list value : R in DropDownList :[[ChromeDriver: chrome on WINDOWS (bb1ae24323c17e5e5edbba0c0778c3a5)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:55:30.320 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Exception Occured while selecting value : R in DropDownList :[[ChromeDriver: chrome on WINDOWS (bb1ae24323c17e5e5edbba0c0778c3a5)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:55:40.640 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (7ac4576d166a21ef0f82e16d4caf9eb5)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:55:40.642 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list value : R in DropDownList :[[ChromeDriver: chrome on WINDOWS (7ac4576d166a21ef0f82e16d4caf9eb5)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:55:40.690 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Exception Occured while selecting value : R in DropDownList :[[ChromeDriver: chrome on WINDOWS (7ac4576d166a21ef0f82e16d4caf9eb5)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:56:21.740 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (9963a4a26a3a5a5b975518d4ade4459b)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:56:23.272 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list value : R in DropDownList :[[ChromeDriver: chrome on WINDOWS (9963a4a26a3a5a5b975518d4ade4459b)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:56:59.563 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (9963a4a26a3a5a5b975518d4ade4459b)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:57:00.149 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list value : R in DropDownList :[[ChromeDriver: chrome on WINDOWS (9963a4a26a3a5a5b975518d4ade4459b)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:57:04.502 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Value of :R
+10:57:47.577 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (d5d73c0e27e7b434eef319dad96f399f)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:57:47.580 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list value  : R in DropDownList :[[ChromeDriver: chrome on WINDOWS (d5d73c0e27e7b434eef319dad96f399f)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:57:47.627 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Value of :R
+10:58:22.000 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (9a4988906f450e17cd182d3219397e1a)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:58:22.002 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list value  : others in DropDownList :[[ChromeDriver: chrome on WINDOWS (9a4988906f450e17cd182d3219397e1a)] -> xpath: //select[@id='userProperties(ssctype)']]
+10:58:22.085 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Value of :others
+11:00:00.585 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (c119c3c2923c4a0fda187084dbc2e678)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:00:01.378 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list value  : others in DropDownList :[[ChromeDriver: chrome on WINDOWS (c119c3c2923c4a0fda187084dbc2e678)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:00:06.752 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Value of :others
+11:01:12.376 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (a5f4153968f122a7524b0dd42d682a13)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:01:13.194 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list value : others in DropDownList :[[ChromeDriver: chrome on WINDOWS (a5f4153968f122a7524b0dd42d682a13)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:01:19.513 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Value of :others
+11:05:43.419 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (d6968091ca044a8cecf902748e419fdb)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:05:43.421 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list VisbleText : Other Board in DropDownListl :[[ChromeDriver: chrome on WINDOWS (d6968091ca044a8cecf902748e419fdb)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:05:43.505 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Visible Text of :Other Board
+11:06:25.187 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (2177e285635fd85241f07117c0d57f0c)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:06:25.189 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list with VisbleText : Other Board in DropDownListl :[[ChromeDriver: chrome on WINDOWS (2177e285635fd85241f07117c0d57f0c)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:06:25.269 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selected Drop down list selected with Visible Text of :Other Board
+11:06:44.057 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (a0570c09ba3dc00973990d23ea5fdfc9)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:06:44.062 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting Drop down list with VisbleText : Other Board in DropDownListl :[[ChromeDriver: chrome on WINDOWS (a0570c09ba3dc00973990d23ea5fdfc9)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:06:44.141 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selected Drop down list selected with Visible Text of :Other Board
+11:07:06.273 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (cfb643bf45caec20feee946c591ef171)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:07:06.277 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list VisbleText : Other Board in DropDownListl :[[ChromeDriver: chrome on WINDOWS (cfb643bf45caec20feee946c591ef171)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:07:06.344 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Visible Text of :Other Board
+11:09:09.724 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Exception Occured while selecting VisibleText : Other Board in DropDownList :[[ChromeDriver: chrome on WINDOWS (71358b252c1f3092a629a9b37cc423bf)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:10:04.470 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Exception Occured while selecting VisibleText : Other Board in DropDownList :[[ChromeDriver: chrome on WINDOWS (d5a3de7cf6dd7f0910544f73432e3c81)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:11:32.633 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Exception Occured while selecting VisibleText : Other Board in DropDownList :[[ChromeDriver: chrome on WINDOWS (21f8a8403d0b699d3ea94cf7116d8870)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:12:07.313 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (cec5f4407f65d591593a677edd16a157)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:12:07.315 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting drop down list VisbleText : Other Board in DropDownListl :[[ChromeDriver: chrome on WINDOWS (cec5f4407f65d591593a677edd16a157)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:12:07.390 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop down list selected with Visible Text of :Other Board
+11:12:41.708 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Drop Down List Element is Visible :[[ChromeDriver: chrome on WINDOWS (d8f14588cea06a7ad0b490cb785b8b3d)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:12:41.714 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selecting Drop down list with VisbleText : Other Board in DropDownListl :[[ChromeDriver: chrome on WINDOWS (d8f14588cea06a7ad0b490cb785b8b3d)] -> xpath: //select[@id='userProperties(ssctype)']]
+11:12:41.789 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Selected Drop down list selected with Visible Text of :Other Board
