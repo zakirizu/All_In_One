@@ -5102,3 +5102,4 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 00:09:27.031 [main] INFO  FrameWork_BuildingBlocks.ActionsClassDemo - Entered text:Admin. In textbox WebElement: [[ChromeDriver: chrome on WINDOWS (0b51acb0722f441782d99301c51ae414)] -> xpath: //input[@name='username']] On Page: OrangeHRM
 00:09:27.050 [main] INFO  FrameWork_BuildingBlocks.ActionsClassDemo - Entering text:admin123. In textbox WebElement: [[ChromeDriver: chrome on WINDOWS (0b51acb0722f441782d99301c51ae414)] -> xpath: //input[@name='password']] On Page: OrangeHRM
 00:09:27.130 [main] INFO  FrameWork_BuildingBlocks.ActionsClassDemo - Entered text:admin123. In textbox WebElement: [[ChromeDriver: chrome on WINDOWS (0b51acb0722f441782d99301c51ae414)] -> xpath: //input[@name='password']] On Page: OrangeHRM
+00:09:32.138 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
