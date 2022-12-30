@@ -14,14 +14,17 @@ public class log4JDemo {
 
 			
 	
-	private static Logger demoLogger = LogManager.getLogger(log4JDemo.class.getName());
+	public static Logger myLoggger =LogManager.getLogger(log4JDemo.class.getName());
 	
 	public static void main(String[] args) {
-		demoLogger.info("Message in Info");
-		demoLogger.error("Message in Error");
-		demoLogger.debug("Message in Debug");
-		demoLogger.fatal("Message in Debug");
+		myLoggger.info("Message in Info");
+		myLoggger.error("Message in Error");
+		myLoggger.debug("Message in Debug");
+		myLoggger.fatal("Message in Debug");
+		
+
 }
+
 
 
 }

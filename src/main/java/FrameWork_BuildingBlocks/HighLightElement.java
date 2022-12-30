@@ -18,7 +18,7 @@ public static void main(String[] args) throws IOException, InterruptedException 
 		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
-		driver.get("https://opensource-demo.orangehrmlive.com");
+		driver.get("https://www.bluestone.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		

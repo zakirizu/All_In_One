@@ -326,3 +326,8 @@
 22:40:05.236 [main] ERROR FrameWork_BuildingBlocks.log4JDemo - Message in Error
 22:40:05.236 [main] DEBUG FrameWork_BuildingBlocks.log4JDemo - Message in Debug
 22:40:05.236 [main] FATAL FrameWork_BuildingBlocks.log4JDemo - Message in Debug
+09:18:08.080 [main] INFO  FrameWork_BuildingBlocks.log4JDemo - Message in Info
+09:18:08.082 [main] ERROR FrameWork_BuildingBlocks.log4JDemo - Message in Error
+09:18:08.082 [main] DEBUG FrameWork_BuildingBlocks.log4JDemo - Message in Debug
+09:18:08.082 [main] FATAL FrameWork_BuildingBlocks.log4JDemo - Message in Debug
+09:19:24.512 [main] INFO  FrameWork_BuildingBlocks.dropDownList - Message in Info

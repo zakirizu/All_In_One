@@ -23,7 +23,7 @@ public class TakeScreenShot {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://opensource-demo.orangehrmlive.com");
+		driver.get("https://www.bluestone.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	//Convert WebDriver Object to TakeScreenShot
