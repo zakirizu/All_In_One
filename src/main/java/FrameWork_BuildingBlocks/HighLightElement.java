@@ -13,15 +13,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class HighLightElement {
 	static WebDriver driver;
 	static JavascriptExecutor js;
+	static String highLightOption = propertiesFileData.getProperty("highLigthElement");
 public static void main(String[] args) throws IOException, InterruptedException {
 	try {
 		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
-		driver.get("https://www.bluestone.com");
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);		
 		WebElement userName = driver.findElement(By.xpath("//input[@name='username']"));
 		WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
 		WebElement submitBtn = driver.findElement(By.xpath("//button[@type='submit']"));
@@ -33,11 +33,11 @@ public static void main(String[] args) throws IOException, InterruptedException 
 		String pwd = testData.get("passWord");
 				
 		highLightSendKeys(userName,userID );
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		highLightSendKeys(password,pwd );
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		highLightClick(submitBtn);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		
 		driver.quit();
 		}
@@ -50,22 +50,27 @@ public static void main(String[] args) throws IOException, InterruptedException 
 	}
 
 
-
-
-	private static void highLightClick(WebElement ele) {
-		if(ele.isDisplayed()) {
+private static void highLightClick(WebElement ele) {
+		if(highLightOption.equalsIgnoreCase("yes")) {
 			js.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;')", ele);
 			ele.click();		
 			}
+		else
+		{
+			ele.click();	
+		}
 }
 
 
-
-
-	private static void highLightSendKeys(WebElement ele,String text) {
-	if(ele.isDisplayed()) {
+private static void highLightSendKeys(WebElement ele,String text) {
+	if(highLightOption.equalsIgnoreCase("yes")) 
+		{
 			js.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;')", ele);
 			ele.sendKeys(text);		
+		}
+	else
+		{
+			ele.sendKeys(text);	
 		}
 	}
 

@@ -12,7 +12,7 @@ import org.apache.logging.log4j.*;
 public class dropDownList {
 	static WebDriver driver;
 	static String path = System.getProperty("user.dir")+"\\Resources\\ScreenShots\\test.png";	
-	public static Logger myLogger =LogManager.getLogger();
+	static Logger myLogger =LogManager.getLogger(dropDownList.class.getName());
 	static String highLigtElement = propertiesFileData.getProperty("highLigthElement");
 	static JavascriptExecutor js;
 	
@@ -38,7 +38,10 @@ public class dropDownList {
 	}
 
 	private static void SelectByVisibleText(WebElement ele, String visibleText) {
+		String title = driver.getTitle();
+		
 		try 
+		
 		{
 			
 		if(!ele.isDisplayed())
@@ -49,26 +52,26 @@ public class dropDownList {
 		}
 		if(highLigtElement.equalsIgnoreCase("yes"))
 		{
-			myLogger.info("Drop Down List Element is Visible :"+ele);	
-			myLogger.info("Selecting Drop down list with VisbleText : "+visibleText +" in DropDownListl :"+ele);	
+			myLogger.info("Drop Down List Element is Visible :"+ele +" On Page: "+title);	
+			myLogger.info("Selecting Drop down list with VisbleText : "+visibleText +" in DropDownList :"+ele +" On Page: "+title);	
 			js.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;')", ele);		
 			Select sc = new Select(ele);
 			sc.selectByVisibleText(visibleText);
-			myLogger.info("Selected Drop down list selected with Visible Text of :"+visibleText);	
+			myLogger.info("Selected Drop down list selected with Visible Text of :"+visibleText+" On Page: "+title);	
 		}
 		else
 		{
-			myLogger.info("Drop Down List Element is Visible :"+ele);	
-			myLogger.info("Selecting drop down list VisbleText : "+visibleText +" in DropDownListl :"+ele);	
+			myLogger.info("Drop Down List Element is Visible :"+ele+" On Page: "+title);	
+			myLogger.info("Selecting drop down list VisbleText : "+visibleText +" in DropDownList :"+ele+" On Page: "+title);	
 			Select sc = new Select(ele);
 			sc.selectByVisibleText(visibleText);
-			myLogger.info("Drop down list selected with Visible Text of :"+visibleText);	
+			myLogger.info("Drop down list selected with Visible Text of :"+visibleText+" On Page: "+title);	
 		}
 
 		}
 		catch(Exception e)
 		{
-			myLogger.info("Exception Occured while selecting VisibleText : "+visibleText +" in DropDownList :"+ele);	
+			myLogger.info("Exception Occured while selecting VisibleText : "+visibleText +" in DropDownList :"+ele+" On Page: "+title);	
 			e.printStackTrace();
 			
 		}
@@ -78,36 +81,37 @@ public class dropDownList {
 	}
 
 	private static void selectByValue(WebElement ele, String value) {
+		String title = driver.getTitle();
 		try 
 		{
 		if(!ele.isDisplayed())
 		{
-			myLogger.info("Not able to find Element :"+ele +". Refreshing the page");
+			myLogger.info("Not able to find Element :"+ele +". Refreshing the page"+" On Page: "+title);
 			driver.navigate().refresh();
 			Thread.sleep(5000);
 		}
 		if(highLigtElement.equalsIgnoreCase("yes"))
 		{
-			myLogger.info("Drop Down List Element is Visible :"+ele);	
-			myLogger.info("Selecting drop down list value : "+value +" in DropDownList :"+ele);	
+			myLogger.info("Drop Down List Element is Visible :"+ele+" On Page: "+title);	
+			myLogger.info("Selecting drop down list value : "+value +" in DropDownList :"+ele+" On Page: "+title);	
 			js.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;')", ele);		
 			Select sc = new Select(ele);
 			sc.selectByValue(value);
-			myLogger.info("Drop down list selected with Value of :"+value);	
+			myLogger.info("Drop down list selected with Value of :"+value+" On Page: "+title);	
 		}
 		else
 		{
-			myLogger.info("Drop Down List Element is Visible :"+ele);	
-			myLogger.info("Selecting drop down list value  : "+value +" in DropDownList :"+ele);	
+			myLogger.info("Drop Down List Element is Visible :"+ele+" On Page: "+title);	
+			myLogger.info("Selecting drop down list value  : "+value +" in DropDownList :"+ele+" On Page: "+title);	
 			Select sc = new Select(ele);
 			sc.selectByValue(value);
-			myLogger.info("Drop down list selected with Value of :"+value);	
+			myLogger.info("Drop down list selected with Value of :"+value+" On Page: "+title);	
 		}
 
 		}
 		catch(Exception e)
 		{
-			myLogger.info("Exception Occured while selecting value : "+value +" in DropDownList :"+ele);	
+			myLogger.info("Exception Occured while selecting value : "+value +" in DropDownList :"+ele+" On Page: "+title);	
 			e.printStackTrace();
 		}
 		
@@ -115,36 +119,37 @@ public class dropDownList {
 	}
 
 	private static void selectByIndex(WebElement ele, int index) {
+		String title = driver.getTitle();
 		try 
 		{
 		if(!ele.isDisplayed())
 		{
-			myLogger.info("Not able to find Element :"+ele +". Refreshing the page");
+			myLogger.info("Not able to find Element :"+ele +". Refreshing the page"+" On Page: "+title);
 			driver.navigate().refresh();
 			Thread.sleep(5000);
 		}
 		if(highLigtElement.equalsIgnoreCase("yes"))
 		{
 			myLogger.info("Drop Down List Element is Visible :"+ele);	
-			myLogger.info("Selecting Drop Down List with Index of : "+index +" in DropDownList :"+ele);	
+			myLogger.info("Selecting Drop Down List with Index of : "+index +" in DropDownList :"+ele+" On Page: "+title);	
 			js.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;')", ele);		
 			Select sc = new Select(ele);
 			sc.selectByIndex(index);
-			myLogger.info("Drop down list selected with Index of :"+index);	
+			myLogger.info("Drop down list selected with Index of :"+index+" On Page: "+title);	
 		}
 		else
 		{
-			myLogger.info("Drop Down List Element is Visible :"+ele);	
-			myLogger.info("Selecting Drop Down List with Index of : "+index +" in DropDownListl :"+ele);	
+			myLogger.info("Drop Down List Element is Visible :"+ele+" On Page: "+title);	
+			myLogger.info("Selecting Drop Down List with Index of : "+index +" in DropDownListl :"+ele+" On Page: "+title);	
 			Select sc = new Select(ele);
 			sc.selectByIndex(index);
-			myLogger.info("Drop down list selected with Index of :"+index);	
+			myLogger.info("Drop down list selected with Index of :"+index+" On Page: "+title);	
 		}
 
 		}
 		catch(Exception e)
 		{
-			myLogger.info("Exception Occured while selecting Index : "+index +" in DropDownList :"+ele);	
+			myLogger.info("Exception Occured while selecting Index : "+index +" in DropDownList :"+ele+" On Page: "+title);	
 			e.printStackTrace();
 		}
 		

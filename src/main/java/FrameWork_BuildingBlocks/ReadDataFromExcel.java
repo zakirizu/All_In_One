@@ -20,7 +20,7 @@ public class ReadDataFromExcel {
 		HashMap<String,String> data =readDatafromExcelSheet(shtName,tcId );		
 		
 		System.out.println();
-		System.out.print(data.get("vocuher6"));
+		System.out.print(data.get("vocuher5"));
 	}
 
 	public static HashMap<String,String> readDatafromExcelSheet(String sheetName, String tcID) throws IOException {
