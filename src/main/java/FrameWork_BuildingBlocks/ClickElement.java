@@ -9,11 +9,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class clickElement {
+public class ClickElement {
 	static WebDriver driver;
 	static String path = System.getProperty("user.dir")+"\\Resources\\ScreenShots\\test.png";	
 	public static Logger myLogger =LogManager.getLogger();
-	static String highLigtElement = propertiesFileData.getProperty("highLigthElement");
+	static String highLigtElement = PropertiesFileData.getProperty("highLigthElement");
 	static JavascriptExecutor js;
 	
 

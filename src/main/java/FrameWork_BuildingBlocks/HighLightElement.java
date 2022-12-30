@@ -13,21 +13,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class HighLightElement {
 	static WebDriver driver;
 	static JavascriptExecutor js;
-	static String highLightOption = propertiesFileData.getProperty("highLigthElement");
+	static String highLightOption = PropertiesFileData.getProperty("highLigthElement");
 public static void main(String[] args) throws IOException, InterruptedException {
+	
 	try {
 		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().window().maximize();
+		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);		
 		WebElement userName = driver.findElement(By.xpath("//input[@name='username']"));
 		WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
 		WebElement submitBtn = driver.findElement(By.xpath("//button[@type='submit']"));
 		
-		ReadDataFromExcel data = new ReadDataFromExcel();		
-		HashMap<String,String> testData =data.readDatafromExcelSheet("realTime","HighLightElement");
+		//ReadDataFromExcel data = new ReadDataFromExcel();		
+		HashMap<String,String> testData =ReadDataFromExcel.readDatafromExcelSheet("realTime","HighLightElement");
 		
 		String userID = testData.get("userName");
 		String pwd = testData.get("passWord");
@@ -47,6 +49,7 @@ public static void main(String[] args) throws IOException, InterruptedException 
 		System.out.println("Exception occured in Main Block: "+e);
 		driver.quit();
 	}
+	
 	}
 
 

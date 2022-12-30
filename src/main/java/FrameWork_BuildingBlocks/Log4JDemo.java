@@ -3,7 +3,7 @@ package FrameWork_BuildingBlocks;
 import org.apache.logging.log4j.*;
 
 
-public class log4JDemo {
+public class Log4JDemo {
 	/***********************************************************************
 	 * If you could see only message insider .error is displayed 
 	 * message inside the info, fatal & debug is not displayed 
@@ -14,7 +14,7 @@ public class log4JDemo {
 
 			
 	
-	public static Logger myLoggger =LogManager.getLogger(log4JDemo.class.getName());
+	public static Logger myLoggger =LogManager.getLogger(Log4JDemo.class.getName());
 	
 	public static void main(String[] args) {
 		myLoggger.info("Message in Info");

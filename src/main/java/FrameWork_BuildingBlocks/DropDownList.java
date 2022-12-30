@@ -9,11 +9,11 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.apache.logging.log4j.*;
 
-public class dropDownList {
+public class DropDownList {
 	static WebDriver driver;
 	static String path = System.getProperty("user.dir")+"\\Resources\\ScreenShots\\test.png";	
-	static Logger myLogger =LogManager.getLogger(dropDownList.class.getName());
-	static String highLigtElement = propertiesFileData.getProperty("highLigthElement");
+	static Logger myLogger =LogManager.getLogger(DropDownList.class.getName());
+	static String highLigtElement = PropertiesFileData.getProperty("highLigthElement");
 	static JavascriptExecutor js;
 	
 	
@@ -48,6 +48,7 @@ public class dropDownList {
 		{
 			myLogger.info("Not able to find Element :"+ele +". Refreshing the page");
 			driver.navigate().refresh();
+			myLogger.info("Refreshed the page");
 			Thread.sleep(5000);
 		}
 		if(highLigtElement.equalsIgnoreCase("yes"))

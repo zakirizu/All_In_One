@@ -60,8 +60,8 @@ public static void explicitwait() {
 	WebDriver driver = new ChromeDriver();
 	
 //SYNTAX Explicit Wait
-	WebDriverWait ExplicitWait = new WebDriverWait(driver, 10);
-	ExplicitWait.until(ExpectedConditions.elementToBeClickable(By.name("q")));	
+	//WebDriverWait ExplicitWait = new WebDriverWait(driver, 10);
+	//ExplicitWait.until(ExpectedConditions.elementToBeClickable(By.name("q")));	
 	
 	driver.get("https://www.google.com/");
 	driver.findElement(By.name("dfasfdfd"));

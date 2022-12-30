@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.lang.System.Logger;
 import java.util.Properties;
 
-public class propertiesFileData {
+public class PropertiesFileData {
 	static FileInputStream fis;
 	static String locationPath;
 	 static String value=null;
