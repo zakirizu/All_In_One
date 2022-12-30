@@ -15,9 +15,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ActionsClassDemo {
 
-	public static Logger myLogger =LogManager.getLogger();
+	//public static Logger myLogger =LogManager.getLogger();
 	static String highLigtElement = PropertiesFileData.getProperty("highLightElement");
-	public static Logger myLoggger =LogManager.getLogger(ActionsClassDemo.class.getName());
+	public static Logger myLogger =LogManager.getLogger(ActionsClassDemo.class.getName());
 	static JavascriptExecutor js;
 	static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
@@ -118,8 +118,7 @@ public class ActionsClassDemo {
 		catch(Exception e)
 		{
 			myLogger.info("Exception occured while Performing RightClick on Element :"+ele +" On Page: "+title);	
-			e.printStackTrace();
-			
+			e.printStackTrace();			
 		}
 		
 		

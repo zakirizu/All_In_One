@@ -1,6 +1,7 @@
 package FrameWork_BuildingBlocks;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
@@ -23,7 +24,7 @@ public static void main(String[] args) throws IOException, InterruptedException 
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().window().maximize();
 		
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));		
 		WebElement userName = driver.findElement(By.xpath("//input[@name='username']"));
 		WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
 		WebElement submitBtn = driver.findElement(By.xpath("//button[@type='submit']"));
