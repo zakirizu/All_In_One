@@ -3,7 +3,6 @@ package FrameWork_BuildingBlocks;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.HashMap;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -36,8 +35,8 @@ public class SendKeysDemo {
 		String pwd = testData.get("passWord");
 		sendKeys(userName,userID);
 		sendKeys(password, pwd);
-		Thread.sleep(5000);
-		driver.quit();
+		Thread.sleep(3000);
+		driver.close();
 		
 
 	}
@@ -69,7 +68,6 @@ public class SendKeysDemo {
 			ele.sendKeys(value);
 			myLogger.info("Entered text:"+value+". In textbox WebElement: "+ele +" On Page: "+title);	
 		}
-
 		}
 		catch(Exception e)
 		{
@@ -77,11 +75,6 @@ public class SendKeysDemo {
 			e.printStackTrace();
 			
 		}
-		
-		
-	
-		
-		
 	}
 
 }

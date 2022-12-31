@@ -14,7 +14,8 @@ import org.openqa.selenium.interactions.Actions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ActionsClassDemo {
-
+	static double startTime	= System.currentTimeMillis();
+	
 	//public static Logger myLogger =LogManager.getLogger();
 	static String highLigtElement = PropertiesFileData.getProperty("highLightElement");
 	public static Logger myLogger =LogManager.getLogger(ActionsClassDemo.class.getName());
@@ -29,11 +30,12 @@ public class ActionsClassDemo {
 		
 		
 		rightClick(eleRightClick);
-		doubleClick(eleDoubleClick);
+		//doubleClick(eleDoubleClick);
 		//dragAndDrop();
 		Thread.sleep(5000);
 		driver.close();	
-	
+		double endTime = System.currentTimeMillis();
+		System.out.println("Total Execution Time:" + String.format("%.3f", ( endTime- startTime)/1000/60F )+" Minutes");
 		
 
 	}
