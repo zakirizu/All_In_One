@@ -20,13 +20,22 @@
 
   <dependencies>
 
-  
-  <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>5.3.1</version>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.10.1</version>
 </dependency>
+  
+  
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.10.1</version>
+</dependency>
+  
+
   
   <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-email -->
 <dependency>
@@ -35,7 +44,12 @@
     <version>1.5</version>
 </dependency>
   
-
+  <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.3.1</version>
+</dependency>
 
 	<dependency>
 		<groupId>org.apache.logging.log4j</groupId>
