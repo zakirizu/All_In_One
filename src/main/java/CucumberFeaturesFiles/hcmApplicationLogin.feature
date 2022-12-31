@@ -11,6 +11,7 @@ Given 	Launch HCM Url Application
   Scenario Outline: Title of your scenario outline
   	Given Launch HCM Application 
   	When Login with <userID> and <passWord>
+  	Then wait for sometime and close
    
 
     Examples: 

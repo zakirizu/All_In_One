@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -34,6 +35,12 @@ WebDriver driver;
 		pwd.sendKeys(passWord);
 		sbt.click();
 	}
+	
+	   @Then("^wait for sometime and close$")
+	    public void wait_for_sometime_and_close() throws Throwable {
+	        Thread.sleep(3000);
+	        driver.close();
+	    }
 	
 	
 	
