@@ -12,8 +12,8 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadDataFromExcel {
-	static  String shtName = "alphaSheet";
-	static String tcId = "TestCasesID3";
+	static  String shtName = "realTime";
+	static String tcId = "HighLightElement";
 	
 
 	public static void main(String[] args) throws IOException {
@@ -48,8 +48,8 @@ public class ReadDataFromExcel {
 				String k = targetKeyRow.getCell(j).getStringCellValue();
 				String v = targetValueRow.getCell(j).getStringCellValue();
 				hmap.put(k,v);
-				//System.out.println(k);
-				//System.out.println(v);
+				System.out.println(k);
+				System.out.println(v);
 			}
 			break;}
 	

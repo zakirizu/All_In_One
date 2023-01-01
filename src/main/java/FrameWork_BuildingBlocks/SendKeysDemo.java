@@ -30,9 +30,12 @@ public class SendKeysDemo {
 		WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
 		js = (JavascriptExecutor) driver;	
 		//ReadDataFromExcel data = new ReadDataFromExcel();		
+		
 		HashMap<String,String> testData =ReadDataFromExcel.readDatafromExcelSheet("realTime","HighLightElement");
 		String userID = testData.get("userName");
 		String pwd = testData.get("passWord");
+		
+		
 		sendKeys(userName,userID);
 		sendKeys(password, pwd);
 		Thread.sleep(3000);

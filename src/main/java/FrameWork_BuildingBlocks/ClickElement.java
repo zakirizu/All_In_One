@@ -13,7 +13,7 @@ public class ClickElement {
 	static WebDriver driver;
 	static String path = System.getProperty("user.dir")+"\\Resources\\ScreenShots\\test.png";	
 	public static Logger myLogger =LogManager.getLogger();
-	static String highLigtElement = PropertiesFileData.getProperty("highLigthElement");
+	static String highLigtElement = PropertiesFileData.getProperty("highLightElement");
 	static JavascriptExecutor js;
 	
 
@@ -32,10 +32,10 @@ public class ClickElement {
 
 
 	private static void clickElement(WebElement ele) {
-		String title=null;
+		String title=driver.getTitle();
 		try 
 		{
-		 title = driver.getTitle();	
+		
 		if(!ele.isDisplayed())
 		{
 			myLogger.info("Not able to find Element :"+ele +". Refreshing the page");

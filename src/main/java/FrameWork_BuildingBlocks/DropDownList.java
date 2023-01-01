@@ -13,7 +13,7 @@ public class DropDownList {
 	static WebDriver driver;
 	static String path = System.getProperty("user.dir")+"\\Resources\\ScreenShots\\test.png";	
 	static Logger myLogger =LogManager.getLogger(DropDownList.class.getName());
-	static String highLigtElement = PropertiesFileData.getProperty("highLigthElement");
+	static String highLigtElement = PropertiesFileData.getProperty("highLightElement");
 	static JavascriptExecutor js;
 	
 	
@@ -22,6 +22,7 @@ public class DropDownList {
 	
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
+		System.out.println(highLigtElement);
 		driver = new ChromeDriver();
 		driver.get("https://online.apsrtcpass.in/counterstupass.do");
 		driver.manage().window().maximize();
@@ -29,9 +30,9 @@ public class DropDownList {
 		WebElement sscBoardType = driver.findElement(By.xpath("//select[@id='userProperties(ssctype)']"));
 		//int index = 2;
 		//String value = "others";
-		//String visibleText = "Other Board";
-		//selectByValue(sscBoardType,"others");
-		//selectByIndex(sscBoardType, 2);
+		String visibleText = "Other Board";
+		selectByValue(sscBoardType,"others");
+		selectByIndex(sscBoardType, 2);
 		SelectByVisibleText(sscBoardType, "Other Board");
 		Thread.sleep(5000);
 		driver.quit();

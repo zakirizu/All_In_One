@@ -8,7 +8,8 @@ import io.cucumber.testng.CucumberOptions;
 features="src/main/java/CucumberFeaturesFiles",
 glue="CucumberStepDefinitionFiles",
 monochrome = true,
-plugin= "{html:target/cucumber.html}"
+tags="tagDemo",
+plugin= {"pretty","html:Resources/cucumber.html","json:target/cucumber.json"}
 )
 
 public class TestNGTestRunner {
