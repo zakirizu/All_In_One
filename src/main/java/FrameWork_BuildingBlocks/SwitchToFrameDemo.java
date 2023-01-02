@@ -94,7 +94,7 @@ public class SwitchToFrameDemo {
 
 			catch(Exception e)
 			{
-				myLogger.info("Exception occured Switching to Frame By nameORid:"+nameORid);	
+				myLogger.info("Exception occured Switching to Frame By name   ORid:"+nameORid);	
 				e.printStackTrace();
 			}
 			
@@ -104,12 +104,7 @@ public class SwitchToFrameDemo {
 		}
 		
 		
-		private static void dragAndDrop() {
-			WebDriverManager.chromedriver().setup();
-			WebDriver driver = new ChromeDriver();
-			
-		}
-
+	
 
 	
 
