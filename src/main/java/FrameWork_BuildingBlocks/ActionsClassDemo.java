@@ -126,8 +126,11 @@ public class ActionsClassDemo {
 		
 	}
 	private static void dragAndDrop() {
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+		WebElement From = null;
+		WebElement To = null;
+		Actions ac = new Actions(driver);
+		ac.clickAndHold(From).moveToElement(To).release(To).build().perform();
+	    driver.close();
 		
 	}
 
