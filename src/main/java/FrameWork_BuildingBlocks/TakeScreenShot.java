@@ -25,7 +25,7 @@ public class TakeScreenShot {
 		driver = new ChromeDriver();
 		driver.get("https://www.bluestone.com");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 	//Convert WebDriver Object to TakeScreenShot
 		Thread.sleep(5000);
 		TakesScreenshot  scrShot  = ((TakesScreenshot) driver);
