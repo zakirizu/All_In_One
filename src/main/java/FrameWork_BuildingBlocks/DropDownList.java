@@ -11,7 +11,7 @@ import org.apache.logging.log4j.*;
 
 public class DropDownList {
 	static WebDriver driver;
-	static String path = System.getProperty("user.dir")+"\\Resources\\ScreenShots\\test.png";	
+	//static String path = System.getProperty("user.dir")+"\\Resources\\ScreenShots\\test.png";	
 	static Logger myLogger =LogManager.getLogger(DropDownList.class.getName());
 	static String highLigtElement = PropertiesFileData.getProperty("highLightElement");
 	static JavascriptExecutor js;

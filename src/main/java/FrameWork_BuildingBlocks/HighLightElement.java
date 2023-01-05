@@ -14,14 +14,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class HighLightElement {
 	static WebDriver driver;
 	static JavascriptExecutor js;
-	static String highLightOption = PropertiesFileData.getProperty("highLigthElement");
+	static String highLightOption = PropertiesFileData.getProperty("highLightElement");
 public static void main(String[] args) throws IOException, InterruptedException {
 	
 	try {
 		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
-		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.manage().window().maximize();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));		

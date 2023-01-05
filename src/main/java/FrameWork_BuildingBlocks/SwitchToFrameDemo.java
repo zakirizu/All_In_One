@@ -21,16 +21,11 @@ public class SwitchToFrameDemo {
 
 		double startTime	= System.currentTimeMillis();
 		
-		//public static Logger myLogger =LogManager.getLogger();
-		
 			driver = WebDriverManagerDemo.chromeDriverSetUp();
 			driver.get("https://demo.guru99.com/test/simple_context_menu.html");
 			WebElement eleRightClick = driver.findElement(By.xpath("//span[text()='right click me']"));
 			WebElement eleDoubleClick = driver.findElement(By.xpath("//button[text()='Double-Click Me To See Alert']"));
 			js = (JavascriptExecutor) driver;	
-			
-			
-		
 			Thread.sleep(5000);
 			driver.close();	
 			double endTime = System.currentTimeMillis();

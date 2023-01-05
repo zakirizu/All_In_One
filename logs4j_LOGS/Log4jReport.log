@@ -15860,3 +15860,248 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 05:25:31.030 [AsyncHttpClient-1-4] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
 05:25:31.720 [AsyncHttpClient-1-5] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
 05:25:31.800 [TestNG-test=Test-3] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x0989fa370853a349
+09:08:47.372 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+09:08:47.379 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+09:08:47.379 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+09:08:47.382 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7a344b65
+09:08:47.399 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+09:08:47.399 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+09:08:47.400 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+09:08:47.401 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+09:08:47.401 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+09:08:47.402 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+09:08:47.402 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) ~[async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:94) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:47) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:135) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:107) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:85) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:80) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:35) ~[selenium-chromium-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:94) ~[selenium-chrome-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82) ~[selenium-chrome-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50) ~[selenium-chrome-driver-4.7.2.jar:?]
+	at FrameWork_BuildingBlocks.WindowsHandleDemo.main(WindowsHandleDemo.java:25) ~[classes/:?]
+09:08:47.406 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+09:08:47.407 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @557caf28
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) ~[async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:94) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:47) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:135) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:107) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:85) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:80) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:35) ~[selenium-chromium-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:94) ~[selenium-chrome-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82) ~[selenium-chrome-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50) ~[selenium-chrome-driver-4.7.2.jar:?]
+	at FrameWork_BuildingBlocks.WindowsHandleDemo.main(WindowsHandleDemo.java:25) ~[classes/:?]
+09:08:47.409 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+09:08:47.409 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+09:08:47.409 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4257218560 bytes (maybe)
+09:08:47.410 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\zakir\AppData\Local\Temp (java.io.tmpdir)
+09:08:47.410 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+09:08:47.410 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+09:08:47.411 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+09:08:47.411 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+09:08:47.412 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+09:08:47.412 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+09:08:47.416 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+09:08:47.430 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+09:08:47.430 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+09:08:47.441 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+09:08:47.441 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+09:08:47.459 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 32
+09:08:47.466 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+09:08:47.466 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+09:08:47.475 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7c75db8b
+09:08:47.476 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6ac0b715
+09:08:47.477 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@468be356
+09:08:47.478 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5c9ac4cc
+09:08:47.479 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4df39a88
+09:08:47.479 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2264e43c
+09:08:47.480 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3bec2275
+09:08:47.481 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@31da3d60
+09:08:47.482 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@60acd609
+09:08:47.482 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@65ec8b24
+09:08:47.483 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3f49e266
+09:08:47.484 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5f18f9d2
+09:08:47.484 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@598260a6
+09:08:47.485 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@58b67519
+09:08:47.486 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@281ce6bb
+09:08:47.487 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@30d25c03
+09:08:47.488 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7a1f8def
+09:08:47.488 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@116a2108
+09:08:47.489 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5e8c34a0
+09:08:47.490 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7c1c5936
+09:08:47.491 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7aead3af
+09:08:47.491 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3ac8cf9b
+09:08:47.492 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@55ec556
+09:08:47.493 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1b15f922
+09:08:47.493 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@37ce3644
+09:08:47.494 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4b869331
+09:08:47.495 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@38018b62
+09:08:47.496 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@ce9b9a9
+09:08:47.496 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4ad3d266
+09:08:47.497 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3533df16
+09:08:47.498 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@15d0849
+09:08:47.498 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4038cd3a
+09:08:47.516 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 32
+09:08:47.517 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 32
+09:08:47.517 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+09:08:47.517 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+09:08:47.517 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+09:08:47.517 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+09:08:47.517 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+09:08:47.517 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+09:08:47.517 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+09:08:47.517 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+09:08:47.517 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+09:08:47.517 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+09:08:47.525 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+09:08:47.525 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+09:08:47.525 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+09:08:47.751 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12896 (auto-detected)
+09:08:47.753 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+09:08:47.753 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+09:08:47.765 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+09:08:47.766 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+09:08:47.791 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: dc:21:5c:ff:fe:85:b0:8d (auto-detected)
+09:08:47.831 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+09:08:47.831 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+09:08:47.831 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@33c1d1ee
+09:08:47.851 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+09:08:47.851 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+09:08:47.851 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+09:08:47.851 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+09:08:48.415 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+09:08:48.491 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x6e500b248430128d
+09:08:55.248 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Getting the title of the Current Window before Switching:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:08:55.260 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Windows with title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:08:55.273 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Successfully switched to Windows with title:
+09:10:41.578 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Getting the title of the Current Window before Switching:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:10:41.653 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Windows with title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:10:42.309 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Successfully switched to Windows with title:Instagram Platform
+09:14:38.321 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Getting the title of the Current Window before Switching:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:15:41.801 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Windows with title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:16:08.781 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Successfully switched to Windows with title:About Instagram | Capture, Create & Share What You Love
+09:19:16.247 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Getting the title of the Current Window before Switching:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:19:16.257 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:19:16.265 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Successfully switched to Child Window with title:Instagram Platform
+09:20:41.550 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Getting the title of the Current Window before Switching:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:20:41.561 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:20:41.581 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Successfully switched to Child Window with title:About Instagram | Capture, Create & Share What You Love
+09:20:41.581 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:21:56.782 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Getting the title of the Current Window before Switching:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:22:31.580 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:22:39.926 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Successfully switched to Child Window with title:Instagram Platform
+09:23:02.588 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:24:48.049 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Getting the title of the Current Window before Switching:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:24:48.061 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:24:48.086 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Successfully switched to Child Window with title:Help Center
+09:24:48.087 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:26:48.162 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Getting the title of the Current Window before Switching:Meta Privacy Policy - How Meta collects and uses user data
+09:26:48.174 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:26:48.223 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Successfully switched to Child Window with title:Meta Privacy Policy - How Meta collects and uses user data
+09:27:43.142 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Getting the title of the Current Window before Switching:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:28:38.602 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:28:47.473 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Successfully switched to Child Window with title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:30:52.731 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Current Parent Window title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:30:52.743 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:30:52.797 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switched to Child Window title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:32:01.014 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Current Parent Window title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:32:01.042 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:32:01.096 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switched to Child Window title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:32:36.806 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Current Parent Window title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:32:36.817 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:32:36.872 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switched to Child Window title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:33:13.400 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Current Parent Window title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:33:13.417 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:33:13.443 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switched to Child Window title:Help Center
+09:34:44.475 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Current Parent Window title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:34:44.508 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:34:44.539 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switched to Child Window title:Help Center
+09:35:32.164 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Current Parent Window title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:35:32.177 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switching to the Child Windows
+09:35:32.244 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Switched to Child Window title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:45:09.040 [main] INFO  FrameWork_BuildingBlocks.DropDownList - Parent Window title:Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:47:54.149 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:48:57.935 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:50:23.611 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:51:09.912 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:51:30.820 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:52:39.625 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:54:53.906 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:55:31.724 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:57:31.474 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:58:45.723 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+09:59:09.022 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+09:59:24.062 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switched to Child Window: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+20:55:24.648 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+20:55:59.508 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+20:56:04.288 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switched to Child Window: Meta Privacy Policy - How Meta collects and uses user data | Privacy Center | Manage your privacy on Facebook, Instagram and Messenger | Facebook Privacy
+21:03:15.631 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: ToolsQA
+21:03:35.934 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+21:03:42.765 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switched to Child Window: ToolsQA
+21:05:23.957 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: ToolsQA
+21:05:32.829 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+21:05:39.511 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switched to Child Window: ToolsQA
+21:08:01.641 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: ToolsQA
+21:08:10.862 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+21:08:21.574 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switched to Child Window: ToolsQA
+21:11:17.668 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: ToolsQA
+21:11:17.690 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+21:11:17.714 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switched to Child Window: ToolsQA
+21:12:06.922 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: ToolsQA
+21:12:16.520 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+21:12:18.949 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switched to Child Window: ToolsQA
+21:13:47.920 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: ToolsQA
+21:14:14.629 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+21:15:30.635 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: ToolsQA
+21:15:30.668 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+21:16:26.263 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switched to Child Window: 
+21:17:17.917 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: ToolsQA
+21:17:17.942 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+21:17:22.974 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switched to Child Window: 
+21:18:36.906 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: ToolsQA
+21:18:36.926 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+21:18:41.958 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switched to Child Window: 
+21:23:55.171 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: ToolsQA
+21:23:55.188 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+21:25:26.197 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Parent Window title: ToolsQA
+21:25:26.222 [main] INFO  FrameWork_BuildingBlocks.WindowsHandleDemo - Switching to the Child Window
+22:13:30.765 [main] INFO  FrameWork_BuildingBlocks.ClickElement - Clicking on Element :[[ChromeDriver: chrome on WINDOWS (0b9dff648a9e5db2524a0982c41ed200)] -> xpath: //select[@id='userProperties(ssctype)']] On Page: APSRTC BUS PASS
+22:13:30.848 [main] INFO  FrameWork_BuildingBlocks.ClickElement - Clicked on Element :[[ChromeDriver: chrome on WINDOWS (0b9dff648a9e5db2524a0982c41ed200)] -> xpath: //select[@id='userProperties(ssctype)']] On Page: APSRTC BUS PASS
+22:17:30.173 [main] INFO  FrameWork_BuildingBlocks.ClickElement - Clicking on Element :[[ChromeDriver: chrome on WINDOWS (8518ee135ee73d4d44751159b80a9872)] -> xpath: //select[@id='userProperties(ssctype)']] On Page: APSRTC BUS PASS
+22:20:44.535 [main] INFO  FrameWork_BuildingBlocks.ClickElement - Clicked on Element :[[ChromeDriver: chrome on WINDOWS (8518ee135ee73d4d44751159b80a9872)] -> xpath: //select[@id='userProperties(ssctype)']] On Page: APSRTC BUS PASS

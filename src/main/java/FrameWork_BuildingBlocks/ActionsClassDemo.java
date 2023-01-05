@@ -128,9 +128,38 @@ public class ActionsClassDemo {
 	private static void dragAndDrop() {
 		WebElement From = null;
 		WebElement To = null;
-		Actions ac = new Actions(driver);
-		ac.clickAndHold(From).moveToElement(To).release(To).build().perform();
-	    driver.close();
+		Actions ac = new Actions(driver);	    
+		String title=null;
+		try 
+		{
+		 title = driver.getTitle();	
+		if(!(From.isDisplayed() && To.isDisplayed()))
+		{
+			myLogger.info("Not able to find WebElement Refreshing the page");
+			driver.navigate().refresh();
+			Thread.sleep(5000);
+		}
+		if(highLigtElement.equalsIgnoreCase("yes"))
+		{
+			myLogger.info("Moving Element:"+From +" To :"+To +"On Page: "+title);				
+			js.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;')", From);		
+			ac.clickAndHold(From).moveToElement(To).release(To).build().perform();
+			myLogger.info("Moved Element:"+From +" To :"+To +"On Page: "+title);
+		}
+		else
+		{
+			myLogger.info("Moving Element:"+From +" To :"+To +"On Page: "+title);
+			ac.clickAndHold(From).moveToElement(To).release(To).build().perform();
+			myLogger.info("Movied Element:"+From +" To :"+To +"On Page: "+title);	
+		}
+
+		}
+		catch(Exception e)
+		{
+			myLogger.info("Exception While Moving Element:"+From +" To :"+To +"On Page: "+title);	
+			e.printStackTrace();			
+		}
+		
 		
 	}
 
