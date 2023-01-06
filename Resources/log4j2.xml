@@ -23,7 +23,7 @@
 
 
 	<Loggers>
-		<Root level="info">
+		<Root level="TRACE">
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="logTofile" />
 		</Root>
