@@ -2,12 +2,12 @@
 Feature: Title of your feature
   I want to use this template for my feature file
 
-  @DataTableDemo
+  @DataTableDemo1
   Scenario: Scenario for Demo Data Table1
     Given Reading Data from DataTable1
     Then Print the Data from DataTable1
       | Zakir   | BTech   | MTech | QAEngineer | 9642869539 |
-      | Rizwana | Kurnool |       | Zoya       | Amyrah     |
+      | Rizwana | Kurnool |test | Zoya       | Amyrah     |
 
   @DataTableDemo2
   Scenario: Scenario for Demo Data Table2
