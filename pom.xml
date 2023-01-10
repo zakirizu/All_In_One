@@ -20,6 +20,12 @@
 
   <dependencies>
   
+	 <dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>cucumber-java</artifactId>
+	    <version>7.10.1</version>
+	</dependency>
+
 	<dependency>
 	    <groupId>com.beust</groupId>
 	    <artifactId>jcommander</artifactId>
@@ -33,14 +39,7 @@
 	    <version>7.10.1</version>
 	</dependency>
 	  	
-	  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
-	<dependency>
-	    <groupId>io.cucumber</groupId>
-	    <artifactId>cucumber-java</artifactId>
-	    <version>7.10.1</version>
-	</dependency>
-    
-	  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
 	<dependency>
 	    <groupId>io.cucumber</groupId>
 	    <artifactId>cucumber-testng</artifactId>

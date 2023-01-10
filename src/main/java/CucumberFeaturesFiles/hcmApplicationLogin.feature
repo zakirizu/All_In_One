@@ -18,3 +18,10 @@ Given 	Launch HCM Url Application
       | userID  |  passWord 	|
       | Admin 	|  admin123		| 
      
+
+     
+###########################################################################################################
+																			# SCENARIO OUTLINE #
+# If we need to send the data as a parameter then we need to use the key word called scenario outline 
+# Scenario Outline is used if we need to send parameters
+###########################################################################################################
