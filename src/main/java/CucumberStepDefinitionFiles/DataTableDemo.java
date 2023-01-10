@@ -8,9 +8,15 @@ import io.cucumber.java.en.Then;
 public class DataTableDemo {
 	
 	
+	static String driver = Hooks.name;
+	
+	
+
     @Given("^Reading Data from DataTable1$")
-    public void reading_data_from_datatable() throws Throwable {
+    public static void reading_data_from_datatable() throws Throwable {
        System.out.println("ZR Reading the Data from Data Table1");
+       System.out.println(Hooks.name);
+       System.out.println(driver);
     }
 
     @Then("^Print the Data from DataTable1$")

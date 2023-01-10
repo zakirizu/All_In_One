@@ -5,6 +5,7 @@ Feature: Title of your feature
   @DataTableDemo1 @table
   Scenario: Scenario for Demo Data Table1
     Given Reading Data from DataTable1
+    Given Reading Data from DataTable3
     Then Print the Data from DataTable1
       | Zakir   | BTech   | MTech | QAEngineer | 9642869539 |
       | Rizwana | Kurnool |test | Zoya       | Amyrah     |

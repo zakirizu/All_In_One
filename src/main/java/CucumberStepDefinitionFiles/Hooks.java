@@ -5,7 +5,7 @@ import io.cucumber.java.Before;
 
 
 public class Hooks {
-	
+	static String name;
 	/******************************************************************************************************************************
 	 *  						HOOKS
 	 *  These are similar to the BeforeMethod in TestNg , but the difference is we need to pass the tag Name for the scenarios
@@ -15,9 +15,10 @@ public class Hooks {
 	 */
 	
 	
-	@Before("@DataTableDemo1")
+	@Before()
 	public void beforeValidation() {
 		System.out.println("ZR: This is code for the Before Hook");
+		 name = "ZAKIR ZR";
 	}
 	
 	
