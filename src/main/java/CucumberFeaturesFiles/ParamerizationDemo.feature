@@ -20,4 +20,4 @@ Feature: Title of your feature
     Examples: 
       | name  		| value | password  |
       | UserName1 |     5 | Password1	|
-      | UserName2 |     7 | Password2  	|
+      | UserName2 |     7 | Password2 |

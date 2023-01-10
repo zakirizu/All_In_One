@@ -1,4 +1,4 @@
-package ParamerizationDemo;
+package CucumberStepDefinitionFiles;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
