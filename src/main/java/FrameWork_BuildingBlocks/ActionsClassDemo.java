@@ -30,7 +30,7 @@ public class ActionsClassDemo {
 		
 		
 		rightClick(eleRightClick);
-		//doubleClick(eleDoubleClick);
+		doubleClick(eleDoubleClick);
 		//dragAndDrop();
 		Thread.sleep(5000);
 		driver.close();	
