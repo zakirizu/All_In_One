@@ -11,9 +11,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class TakeScreenShot {
 	static WebDriver driver;
-	static String path = System.getProperty("user.dir")+"\\Resources\\ScreenShots\\test.png";
+	static String path = System.getProperty("user.dir")+"\\Resources\\ScreenShots\\testScrSht.png";
 	
 	
 	
@@ -21,13 +23,15 @@ public class TakeScreenShot {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.get("https://www.bluestone.com");
+		
+		
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();		
+		driver.get("https://www.bluestone.com/goldmine.html?gmfidv=GMS25");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 	//Convert WebDriver Object to TakeScreenShot
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		TakesScreenshot  scrShot  = ((TakesScreenshot) driver);
 	//Call  getScreenshotAs method to create Image file	
 		File srFile = scrShot.getScreenshotAs(OutputType.FILE);
