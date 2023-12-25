@@ -18,12 +18,16 @@ public class ClickElement {
 	
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
+		
+		
 		driver = new ChromeDriver();
 		driver.get("https://online.apsrtcpass.in/counterstupass.do");
 		driver.manage().window().maximize();
 		js = (JavascriptExecutor) driver;
 		WebElement sscBoardType = driver.findElement(By.xpath("//select[@id='userProperties(ssctype)']"));
+	
+		
 		clickElement(sscBoardType);
 		Thread.sleep(5000);
 		driver.quit();
@@ -51,6 +55,7 @@ public class ClickElement {
 		}
 		else
 		{
+			//Comment Zakriya
 			myLogger.info("Clicking on Element :"+ele +" On Page: "+title);			
 			ele.click();
 			myLogger.info("Clicked on Element :"+ele +" On Page: "+title);	

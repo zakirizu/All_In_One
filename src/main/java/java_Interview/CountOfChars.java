@@ -9,7 +9,7 @@ import java.util.Iterator;
 public class CountOfChars {
 
 	public static void main(String[] args) {
-	String given  	= "SOFTWARE ENGINEERS";
+	String given  	= "APPLE";
 	String str		= (given.replace(" ", "")).toLowerCase();
 	
 	
@@ -30,6 +30,7 @@ public class CountOfChars {
 		}
 		else
 		{
+		//if it is already present then get the value of that key and then add 1 to that value as it has repeated for the second time
 		int value = hmap.get(key);
 		hmap.put(key, value+1);		
 		}

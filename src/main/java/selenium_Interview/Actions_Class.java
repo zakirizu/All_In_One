@@ -4,13 +4,22 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Actions_Class {
 
 	public static void main(String[] args) throws InterruptedException {
+		ChromeOptions options = new ChromeOptions();
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\WORK_\\chromedriver.exe");
+	      options.addArguments("--remote-allow-origins=*");
+	      options.addArguments("--no-sandbox");
+	      options.addArguments("--disable-dev-shm-usage");
+		
+		
+		WebDriverManager.chromedriver().setup();
 			
 		//Right_Click(); 		//ContextClick
 		//Double_Click();  		//DoubleClick
