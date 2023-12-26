@@ -3,7 +3,7 @@ package java_Interview;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class JavaRemoveDuplicates {
+public class RemoveDuplicates_From_IntArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
