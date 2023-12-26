@@ -10,7 +10,7 @@ public class Select_Class {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\WORK_\\chromedriver.exe");		
+		
 
 
 		WebDriver driver = new ChromeDriver();

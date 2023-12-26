@@ -18,7 +18,6 @@ public class ActionsClassDemo {
 	static JavascriptExecutor js;
 	static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
-		driver = WebDriverManagerDemo.chromeDriverSetUp();
 		driver.get("https://demo.guru99.com/test/simple_context_menu.html");
 		WebElement eleRightClick = driver.findElement(By.xpath("//span[text()='right click me']"));
 		WebElement eleDoubleClick = driver.findElement(By.xpath("//button[text()='Double-Click Me To See Alert']"));

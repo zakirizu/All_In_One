@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
 import pagesDemo.testPage;
 
 public class FindBy_PageObjectDesginPattern{
@@ -16,7 +14,7 @@ static WebDriver driver;
 	
 	public static void main(String[] args) {
 
-		WebDriverManager.chromedriver().setup();
+		
 		driver = new ChromeDriver();
 		System.out.println("ZR1:"+driver);
 		driver.get("https://www.facebook.com/");

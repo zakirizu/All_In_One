@@ -11,7 +11,7 @@ public class Links_In_page {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
+		
 		Count_Of_Links();	
 		
 	}

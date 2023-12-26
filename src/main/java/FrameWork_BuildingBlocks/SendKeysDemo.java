@@ -11,7 +11,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SendKeysDemo {
 	static String highLigtElement = PropertiesFileData.getProperty("highLightElement");
@@ -21,7 +20,6 @@ public class SendKeysDemo {
 	
 
 	public static void main(String[] args) throws InterruptedException, IOException {
-		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com");
 		driver.manage().window().maximize();

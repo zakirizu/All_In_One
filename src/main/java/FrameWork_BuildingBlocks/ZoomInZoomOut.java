@@ -13,7 +13,7 @@ import java.awt.AWTException;
 import java.awt.Robot;	
 import java.awt.event.KeyEvent;	
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class ZoomInZoomOut {
 
@@ -26,7 +26,7 @@ public class ZoomInZoomOut {
 	}
 
 	private static  void ZoomIn() throws AWTException, InterruptedException {
-		WebDriverManager.chromedriver().setup();
+		
 		ChromeOptions chromeOptions = new ChromeOptions();
 		 chromeOptions.addArguments("--remote-allow-origins=*");
 		 WebDriver driver = new ChromeDriver(chromeOptions);
@@ -49,7 +49,6 @@ public class ZoomInZoomOut {
 	}
 	
 	private static void ZoomOut() throws AWTException, InterruptedException {
-		WebDriverManager.chromedriver().setup();
 		ChromeOptions chromeOptions = new ChromeOptions();
 		 chromeOptions.addArguments("--remote-allow-origins=*");
 		 WebDriver driver = new ChromeDriver(chromeOptions);

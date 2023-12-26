@@ -8,13 +8,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class hcmApplicationLoginStepDefinition {
 WebDriver driver;
 	@Given("Launch HCM Url Application")
 	public void launchHCMUrlApplication() {		
-		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));

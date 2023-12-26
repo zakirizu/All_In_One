@@ -9,7 +9,7 @@ public class Alerts_Ok_Cancel {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\WORK_\\chromedriver.exe");
+		
 	//	Cancel_Alerts();	//driver.switchTo().alert().dismiss();
 	//	Accept_Alerts();	//driver.switchTo().alert().ACCEPT();
 		getText();			//driver.switchTo().alert().getText();

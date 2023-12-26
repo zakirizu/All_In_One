@@ -11,7 +11,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TakeScreenShot {
 	static WebDriver driver;
@@ -25,7 +24,7 @@ public class TakeScreenShot {
 		
 		
 		
-		WebDriverManager.chromedriver().setup();
+		
 		driver = new ChromeDriver();		
 		driver.get("https://www.bluestone.com/goldmine.html?gmfidv=GMS25");
 		driver.manage().window().maximize();

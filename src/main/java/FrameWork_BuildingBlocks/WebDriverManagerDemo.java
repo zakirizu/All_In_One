@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 public class WebDriverManagerDemo {
@@ -22,7 +22,7 @@ static WebDriver driver;
 	}
 
 	public static void edgeBrowserSetUp() throws InterruptedException {
-		WebDriverManager.edgedriver().setup();
+	
 		driver = new EdgeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60)) ;
 		driver.manage().window().maximize();
@@ -33,7 +33,7 @@ static WebDriver driver;
 	}
 
 	public static WebDriver chromeDriverSetUp() throws InterruptedException {
-		WebDriverManager.chromedriver().setup();		
+		
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60)) ;
 		driver.manage().window().maximize();
@@ -42,7 +42,7 @@ static WebDriver driver;
 	}
 	public static void IEBrowserSetUp() throws InterruptedException {
 		
-		WebDriverManager.iedriver().setup();
+		
 		 driver = new InternetExplorerDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60)) ;
 		driver.manage().window().maximize();

@@ -10,7 +10,7 @@ public class Iframes {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\WORK_\\chromedriver.exe");
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		

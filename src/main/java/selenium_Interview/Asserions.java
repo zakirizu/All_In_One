@@ -13,7 +13,7 @@ public class Asserions {
 @Test
 public void HardAssertion() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\WORK_\\chromedriver.exe");
+		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/");
 		driver.manage().window().maximize();
@@ -33,7 +33,7 @@ public void HardAssertion() {
 @Test
 public void Soft_Assertion() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\WORK_\\chromedriver.exe");
+		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/");
 		driver.manage().window().maximize();

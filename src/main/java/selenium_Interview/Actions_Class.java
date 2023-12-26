@@ -7,7 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Actions_Class {
 
@@ -19,8 +18,7 @@ public class Actions_Class {
 	      options.addArguments("--disable-dev-shm-usage");
 		
 		
-		WebDriverManager.chromedriver().setup();
-			
+		
 		//Right_Click(); 		//ContextClick
 		//Double_Click();  		//DoubleClick
 		//Drag_And_Drop(); 		//DragAndDrop

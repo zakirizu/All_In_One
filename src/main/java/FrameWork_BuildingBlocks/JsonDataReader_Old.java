@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import org.apache.commons.io.FileUtils;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.fasterxml.jackson.core.type.TypeReference;
+//import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class JsonDataReader_Old {
 	
@@ -15,7 +15,7 @@ public class JsonDataReader_Old {
 	
 	/**************************************************
 	 ***************Read JSon Data********************
-	 *************************************************/
+	 ************************************************
 	public static List<HashMap<String, String>> getJsonDataReader(String filePath) throws IOException{
 	//Read Json String 	
 	String jsconContent = FileUtils.readFileToString(new File(filePath));
@@ -25,6 +25,6 @@ public class JsonDataReader_Old {
 	return data;
 	//now this list has two maps
 	}
-	
+	*/
 
 }

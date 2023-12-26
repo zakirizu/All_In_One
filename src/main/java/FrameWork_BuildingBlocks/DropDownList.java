@@ -21,7 +21,6 @@ public class DropDownList {
 	
 	
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
 		System.out.println(highLigtElement);
 		driver = new ChromeDriver();
 		driver.get("https://online.apsrtcpass.in/counterstupass.do");

@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Tiltle_Of_Page {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
+		
 		WebDriver driver = new ChromeDriver();
 
 driver.get("https://www.apsrtconline.in/oprs-web/");

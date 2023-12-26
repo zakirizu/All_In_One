@@ -13,7 +13,7 @@ public class ScreenShot {
 	
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
-		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
+		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
 		driver.get(null);

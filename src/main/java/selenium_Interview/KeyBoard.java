@@ -12,7 +12,7 @@ public class KeyBoard {
 
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Work\\chromedriver.exe");
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		WebElement Element = driver.findElement(By.xpath("//input[@id='fromPlaceName']"));
