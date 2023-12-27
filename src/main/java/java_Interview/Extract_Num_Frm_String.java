@@ -24,5 +24,5 @@ public class Extract_Num_Frm_String {
 	
 	String str3 = alpha.replaceAll("[a-z]", "*");
 	System.out.println(str3);
-	
+	//Test
 	}}
