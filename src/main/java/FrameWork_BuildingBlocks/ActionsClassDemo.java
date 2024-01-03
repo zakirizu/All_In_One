@@ -10,8 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 
 
 public class ActionsClassDemo {
-	static double startTime	= System.currentTimeMillis();
-	
+	static double startTime	= System.currentTimeMillis();	
 	//public static Logger myLogger =LogManager.getLogger();
 	static String highLigtElement = PropertiesFileData.getProperty("highLightElement");
 	public static Logger myLogger =LogManager.getLogger(ActionsClassDemo.class.getName());
@@ -22,8 +21,6 @@ public class ActionsClassDemo {
 		WebElement eleRightClick = driver.findElement(By.xpath("//span[text()='right click me']"));
 		WebElement eleDoubleClick = driver.findElement(By.xpath("//button[text()='Double-Click Me To See Alert']"));
 		js = (JavascriptExecutor) driver;	
-		
-		
 		rightClick(eleRightClick);
 		doubleClick(eleDoubleClick);
 		//dragAndDrop();
