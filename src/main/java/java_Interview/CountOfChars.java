@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class CountOfChars {
 
 	public static void main(String[] args) {
-	String given  	= "APPLE";
+	String given  	= "ashrafsyed";
 	String str		= (given.replace(" ", "")).toLowerCase();	
 	/**************************LOGIC***************************
 	 *  Map Keys - Unique, can contain one null value
