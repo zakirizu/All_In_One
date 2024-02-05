@@ -1,7 +1,7 @@
 package selenium_Interview;
 
 import java.io.File;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +15,7 @@ public class ScreenShot {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1));
 		driver.get(null);
 		TakesScreenShot("WikiPedia_Bismillah");
 	}

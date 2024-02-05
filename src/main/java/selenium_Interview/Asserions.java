@@ -1,5 +1,7 @@
 package selenium_Interview;
-import java.util.concurrent.TimeUnit;
+
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,7 +19,7 @@ public void HardAssertion() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);		
+		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1));
 		WebElement contextLink = driver.findElement(By.xpath("//a[text()='Context Menu']"));
 		contextLink.click();		
 		Actions ac = new Actions(driver);		
@@ -37,8 +39,7 @@ public void Soft_Assertion() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		
+		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1));		
 		WebElement contextLink = driver.findElement(By.xpath("//a[text()='Context Menu']"));
 		contextLink.click();		
 		Actions ac = new Actions(driver);		

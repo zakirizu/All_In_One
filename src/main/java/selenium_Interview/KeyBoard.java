@@ -1,7 +1,6 @@
 package selenium_Interview;
 
-import java.util.concurrent.TimeUnit;
-
+import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +13,7 @@ public class KeyBoard {
 	public static void main(String[] args) {
 		
 		WebDriver driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1));
 		WebElement Element = driver.findElement(By.xpath("//input[@id='fromPlaceName']"));
 		Element.sendKeys(Keys.ARROW_DOWN);
 		Element.sendKeys(Keys.ARROW_RIGHT);
