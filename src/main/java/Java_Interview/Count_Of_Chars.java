@@ -2,7 +2,7 @@ package Java_Interview;
 import java.util.HashMap;
 import java.util.Iterator;
 
-public class CountOfChars {
+public class Count_Of_Chars {
 
 	public static void main(String[] args) {
 	String given  	= "ashrafsyed";

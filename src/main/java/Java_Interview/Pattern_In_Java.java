@@ -1,6 +1,6 @@
 package Java_Interview;
 
-public class patternInJava {
+public class Pattern_In_Java {
 	
     public static void main(String[] args) {
         int rows = 9; // You can change the number of rows as per your requirement
