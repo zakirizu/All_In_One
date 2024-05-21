@@ -10,7 +10,8 @@ public class Extract_Num_Frm_String {
 		 * **********************************************************************
 		 */
 		
-	String alpha = "�Phone Num.: (964) 869-5394 (testing) # #asdas-+*�";
+	String alpha = "Tacking Generated is =9642869539";
+	alpha = alpha.toLowerCase();
 	
 	
 	String str = alpha.replaceAll("[0-9]", "");
@@ -20,8 +21,7 @@ public class Extract_Num_Frm_String {
 	String str2 = alpha.replaceAll("[^0-9]", "");
 	System.out.println(str2);
 	
-	
-	
+		
 	String str3 = alpha.replaceAll("[a-z]", "*");
 	System.out.println(str3);
 	//Test

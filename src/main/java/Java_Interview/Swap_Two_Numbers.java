@@ -7,9 +7,11 @@ public class Swap_Two_Numbers {
 		int a = 10, b = 20;
 		//logic 1 
 		System.out.println("Before Swapping numbers are " +a+ " " +b);
+		
 		int t=a;
 		a=b;
-		b=t;
+		b=
+				t;
 		System.out.println("After Swapping numbers are " +a+ " " +b);
 		
 		//logic 2 
