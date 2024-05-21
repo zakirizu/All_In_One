@@ -14,21 +14,10 @@ public class ALPHA {
 		//Duplicate 
 	Duplicate_Values_In_Given_Array_Using_ForLoop();
 
-	Duplicate_Values_And_Count_In_Given_Array_Using_HashSet();
-		
 		
 		
 		
 	}
-
-		
-	private static void Duplicate_Values_And_Count_In_Given_Array_Using_HashSet() {}
-			
-		
-
-
-
-
 
 	private static void Duplicate_Values_In_Given_Array_Using_ForLoop() {
 		String[] names = {"zakir", "hussain","zakir", "shaik"};
