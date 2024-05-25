@@ -37,6 +37,16 @@ public class DECLRATION_Syntax {
 		arrList.add("cat");
 		System.out.println(arrList);
 		
+		arrList.forEach(null);{
+			System.out.println();
+		};
+		
+		for(String s: arrList)
+		{
+			
+		}
+		System.out.println();
+		
 	}
 
 	private static void Arrays() {
