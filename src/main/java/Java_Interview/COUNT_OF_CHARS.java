@@ -1,11 +1,9 @@
 package Java_Interview;
 import java.util.HashMap;
 import java.util.Iterator;
-
-public class Count_Of_Chars {
-
+public class COUNT_OF_CHARS {
 	public static void main(String[] args) {
-	String given  	= "ashrafsyed";
+	String given  	= "apple";
 	String str		= (given.replace(" ", "")).toLowerCase();	
 	/**************************LOGIC***************************
 	 *  Map Keys - Unique, can contain one null value
@@ -33,9 +31,7 @@ public class Count_Of_Chars {
 	
 	while(keyiter.hasNext() && Valueite.hasNext())
 	{
-		
 		System.out.println(keyiter.next() + " -> "+Valueite.next());
-		
 	}	
 
 

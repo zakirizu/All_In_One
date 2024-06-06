@@ -22,8 +22,6 @@ Given 			Clear the Cache
   ##This example is to write the Plan Gherkin Language
   #This is from Legion
   #This is From Legion Again
-  
-  
   @hcm     	@testAfterHook											@All
   Scenario: Login to the HDAP Application
     Given 			I want to write a step with precondition
@@ -53,10 +51,10 @@ Given 			Clear the Cache
     Then 			Close the browser
 
     Examples: 
-      | userName 	| passWord 	|
-      | Zakir    				| Rizu     				|
-      | Zoya     			| Amyrah   		|
-      | Younus   		| Ameena   	|
+      | userName | passWord |
+      | Zakir    | Rizu     |
+      | Zoya     | Amyrah   |
+      | Younus   | Ameena   |
       
       
 
