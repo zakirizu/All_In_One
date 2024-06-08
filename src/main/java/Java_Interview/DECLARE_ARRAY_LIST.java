@@ -17,7 +17,7 @@ public class DECLARE_ARRAY_LIST  extends ZCOLORS_PRINT{
 		arr.add("cat");
 		arr.add("dog");
 		
-
+//
 		
 		//Printing using for loop
 		System.out.println(BLUE + "--Print Array Using For  Loop-----------------------------------------------------------------" );
