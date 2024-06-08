@@ -1,7 +1,7 @@
 package Java_Interview;
 import java.util.HashMap;
 import java.util.Iterator;
-class Write {
+public class TO_DO_VALUEALBS{
  public static void main(String[] args) {
     
     String name = "Sireesha Sappanna";

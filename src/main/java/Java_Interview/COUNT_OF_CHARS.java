@@ -26,15 +26,26 @@ public class COUNT_OF_CHARS {
 		}
 	}
 	
-	Iterator<Character> keyiter = hmap.keySet().iterator();
-	Iterator<Integer> Valueite  = hmap.values().iterator();
 	
-	while(keyiter.hasNext() && Valueite.hasNext())
+	for(Character k : hmap.keySet())
 	{
-		System.out.println(keyiter.next() + " -> "+Valueite.next());
-	}	
-
-
+		System.out.println(k     +"->" +hmap.get(k) );
+	}
+	
+	
+	
+	
+//	
+//	Iterator<Character> keyiter = hmap.keySet().iterator();
+//	Iterator<Integer> Valueite  = hmap.values().iterator();
+//	
+//	while(keyiter.hasNext() && Valueite.hasNext())
+//	{
+//		System.out.println(keyiter.next() + " -> "+Valueite.next());
+//	}	
+//
+//
+//	
 	}
 
 }

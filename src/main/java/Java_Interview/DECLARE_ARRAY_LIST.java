@@ -2,7 +2,7 @@ package Java_Interview;
 
 import java.util.ArrayList;
 
-public class DECLARE_ARRAY_LIST  extends COLORS_PRINT{
+public class DECLARE_ARRAY_LIST  extends ZCOLORS_PRINT{
 
 
 	
