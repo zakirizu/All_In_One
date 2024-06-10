@@ -32,16 +32,6 @@ public class DECLARE_HASHMAP extends ZCOLORS_PRINT{
 			System.out.println(GREEN +keyIte.next() +"->"+ +valueIte.next());
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 
 	}
 
