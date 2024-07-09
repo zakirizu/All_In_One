@@ -20,7 +20,7 @@ public class COUNT_OF_CHARS {
 		}
 		else
 		{
-		//if it is already present then get the value of that key and then add 1 to that value as it has repeated for the second time
+		//if it is already present then get the value of that key and then add one to that value as it has repeated for the second time
 		int value = hmap.get(key); 
 		hmap.put(key, value+1);		
 		}

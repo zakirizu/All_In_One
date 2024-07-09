@@ -7,10 +7,7 @@ public class TO_DO_PUBLICI_SAPIENS {
 //1.create and print below values 
 
 //	‘A’: 5,
-//	‘B’: {
-//		‘c’: 1,
-//		‘d’:2
-//		},
+//	‘B’: {	‘c’: 1,	‘d’:2	},
 //	‘E’: 10
 //	}
 //
