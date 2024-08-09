@@ -10,9 +10,7 @@ public class CommonStepDefinitions {
 	
 	static String driver = Hooks.name;
 	
-	
-
-    @Given("^Reading Data from DataTable3$")
+	@Given("^Reading Data from DataTable3$")
     public static void reading_data_from_datatable() throws Throwable {
        System.out.println("ZR Reading the Data from Data Table3");
        System.out.println(Hooks.name);
