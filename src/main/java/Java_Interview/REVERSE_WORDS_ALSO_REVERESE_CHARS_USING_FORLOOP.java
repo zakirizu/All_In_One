@@ -6,6 +6,10 @@ public class REVERSE_WORDS_ALSO_REVERESE_CHARS_USING_FORLOOP {
 		
 		String str = "apple boy cat";
 		String[] arr = str.split(" ");
+		
+		System.out.println(arr.length);
+		
+		
 		//Now taking each word from the given statement as String
 		for(int i=arr.length-1; i>=0; i--)
 		{
