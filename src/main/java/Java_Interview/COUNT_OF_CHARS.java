@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 public class COUNT_OF_CHARS {
 	public static void main(String[] args) {
-	String given  	= "apple";
+	String given  	= "cotiviti";
 	String str		= (given.replace(" ", "")).toLowerCase();	
 	/**************************LOGIC***************************
 	 *  Map Keys - Unique, can contain one null value
@@ -25,8 +25,7 @@ public class COUNT_OF_CHARS {
 		hmap.put(key, value+1);		
 		}
 	}
-	
-	
+	//Printing the values
 	for(Character k : hmap.keySet())
 	{
 		System.out.println(k     +"->" +hmap.get(k) );
