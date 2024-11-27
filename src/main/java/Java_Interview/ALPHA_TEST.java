@@ -1,16 +1,9 @@
 package Java_Interview;
 
-public class ALPHA_TEST {
+import java.util.HashMap;
 
-	 static public void main(String[] args) {
-		// TODO Auto-generated method stub
-		 System.out.println("test");
-		 
-		 double a = 10;
-		 double b = 3;
-		 double div = a/b;
-		 System.out.println(div);
-
+class ALPHA_TEST{
+	   public static void main(String args[]){
+		   
+	   }
 	}
-
-}
