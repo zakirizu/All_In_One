@@ -8,9 +8,9 @@ public class REVERSE_GIVEN_STATMENT {
 		String str = "bluestone means trust";
 		String[] arr = str.split(" ");
 		//Now taking each word from the given statement as String
+		//And printing from the last Index
 		for(int i=arr.length-1; i>=0; i--)
 		{
-			
 			System.out.print(arr[i]+ " " );
 			
 		}

@@ -17,6 +17,7 @@ public class COUNT_OF_CHARS {
 		if(!hmap.containsKey(key))
 		{
 			hmap.put(key,1);
+			
 		}
 		else
 		{
