@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 public class COUNT_OF_CHARS {
 	public static void main(String[] args) {
-	String given  	= "cotiviti";
+	String given  	= "husSain";
 	String str		= (given.replace(" ", "")).toLowerCase();	
 	/**************************LOGIC***************************
 	 *  Map Keys - Unique, can contain one null value
