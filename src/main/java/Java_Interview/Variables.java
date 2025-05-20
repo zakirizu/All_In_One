@@ -29,6 +29,7 @@ static char gender = 'M';
 	language =z  ;
 	}
 	public void printer() {
+		System.out.println("Parent Mehtod Data");
 		System.out.println("Name is  :"+name);
 		System.out.println("Age is :"+age);
 		System.out.println("Language is :"+language);
