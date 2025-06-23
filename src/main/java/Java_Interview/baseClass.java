@@ -1,14 +1,6 @@
 package Java_Interview;
 public class baseClass {
 	
-	/*
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * */
 	
 	
 	public static  void main(String[] args) {

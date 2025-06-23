@@ -1,23 +1,26 @@
 package Java_Interview;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 public class alphaTest  {
-	
-	 int x;
-	 String name;
-	 WebDriver driver;
-	 alphaTest obj;
+
   
 	public  void main(String[] args) {
-		x=10;
-		name = "zakir";
-		obj = new alphaTest();
-		driver = new ChromeDriver();
+		
+		alphaTest obj = new alphaTest();
+		obj.multiplication(2, 3);
 	}
 
+	
+	public  void multiplication(int a, int b)
+	{
+		int mul = a * b;
+		System.out.println(mul);
+	}
 
+	
+	public  void multiplication(int a, int b, int c)
+	{
+		int mul = a * b* c;
+		System.out.println(mul);
+	}
 
 
 	
