@@ -16,6 +16,8 @@ public class DECLARE_ARRAY_LIST  extends ZCOLORS_PRINT{
 		arr.add("boy");
 		arr.add("cat");
 		arr.add("dog");
+		arr.add("dog");
+		 
 		
 //
 		

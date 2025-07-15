@@ -11,6 +11,7 @@ public class DECLARE_HASHSET extends ZCOLORS_PRINT {
 		hset.add("apple");
 		hset.add("boy");
 		hset.add("cat");
+		hset.add("boy");
 		
 		
 		//Print Using For Each Loop

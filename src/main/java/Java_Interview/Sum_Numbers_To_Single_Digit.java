@@ -1,10 +1,11 @@
 package Java_Interview;
 
-public class Global_Logic {
+public class Sum_Numbers_To_Single_Digit {
 
 	public static void main(String[] args) {
-		int[] arr = {};
-
+		
+		
+		
 	}
 
 }
