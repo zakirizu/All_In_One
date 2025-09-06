@@ -1,3 +1,4 @@
+
 package Java_Interview;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -17,7 +18,6 @@ public class COUNT_OF_CHARS {
 		if(!hmap.containsKey(key))
 		{
 			hmap.put(key,1);
-			
 		}
 		else
 		{
@@ -34,8 +34,7 @@ public class COUNT_OF_CHARS {
 	
 	
 	
-	
-//	
+		
 //	Iterator<Character> keyiter = hmap.keySet().iterator();
 //	Iterator<Integer> Valueite  = hmap.values().iterator();
 //	
