@@ -8,6 +8,10 @@ public class TaxCalculation {
 		taxCaluculator.TelanganaTax();
 		}
 	
+	/*@Author: "Zakir Hussain"
+	 * Class : Day 05
+	 * Date  : 22-October-2024
+	 */
 	void TamilNaduTax() {
         // Given values
        float basePrice = 1000;  // Base cost of the product
