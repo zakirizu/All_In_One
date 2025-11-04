@@ -12,7 +12,7 @@ abstract class EngineRules_Govt {
 	
 	
 	public void SoundHorn() {
-		System.out.println("Click on the Steering for Sounding Horn");
+		System.out.println("Click on Steering for Sounding Horn");
 	}
 	
 	public void FourTyres() {
